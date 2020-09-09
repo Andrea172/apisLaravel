@@ -13,8 +13,8 @@
     <body>
         <div class="container">
            <a href="{{route('inicio')}}" class="btn btn-primary">Inicio</a>
-           <a href="{{route('foto')}}" class="btn btn-primary">Mapa</a>   
-           <a href="{{route('noticias')}}" class="btn btn-primary">Traductor</a>   
+           <a href="{{route('mapa')}}" class="btn btn-primary">Mapa</a>   
+           <a href="{{route('traductor')}}" class="btn btn-primary">Traductor</a>   
            <a href="{{route('nosotros')}}" class="btn btn-primary">Nosotros</a>
         </div>
 

@@ -2,7 +2,7 @@
 @section('seccion')
 <br>
 <a href="{{route('traducir')}}" class="btn btn-warning btn-sm">Traducir a inglés</a>
-<a href="{{route('noticias')}}" class="btn btn-warning btn-sm">Traducir a español</a>
+<a href="{{route('traductor')}}" class="btn btn-warning btn-sm">Traducir a español</a>
 
 <h1>{{$texto[0]}}</h1>
 <br>

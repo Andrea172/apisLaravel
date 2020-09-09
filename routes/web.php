@@ -14,9 +14,9 @@ Route::put('/editar/{id}', 'PageController@guardarEdicion')->name('notas.guardar
 
 Route::delete('/eliminar/{id}', 'PageController@eliminar')->name('notas.eliminar');
 
-Route::get('/mapa', 'PageController@fotos')->name('foto');
+Route::get('/mapa', 'PageController@mapa')->name('mapa');
 
-Route::get('/traductor', 'PageController@blog')->name('noticias');
+Route::get('/traductor', 'PageController@traductorEs')->name('traductor');
 
 Route::get('/traducir', 'PageController@traducirTexto')->name('traducir');
 

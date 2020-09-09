@@ -62,14 +62,14 @@ class PageController extends Controller
 
     }
 
-    public function fotos(){
+    public function mapa(){
         
-        return view('fotos');
+        return view('mapa');
     }
 
-    public function blog(){
+    public function traductorEs(){
         $texto=['Bienvenidos al nuevo parque','Actividades en el parque','Jugar con la pelota', 'Bailar', 'Conciertos al aire libre', 'Cuentos para niños'];
-        return view('blog', compact( 'texto'));
+        return view('traductor', compact( 'texto'));
     }
 
     public function traducirTexto(){
@@ -82,7 +82,7 @@ class PageController extends Controller
            $linea = $tr->translate($texto[$i]);
            $texto[$i]= $linea;
         }
-        return view('blog', compact('texto'));
+        return view('traductor', compact('texto'));
     }
 
     public function nosotros($nombre=null){
